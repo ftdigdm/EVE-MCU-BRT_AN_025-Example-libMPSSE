@@ -20,13 +20,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -88,7 +88,7 @@
     <ClCompile Include="..\Example\eve_fonts.c" />
     <ClCompile Include="..\Example\eve_helper.c" />
     <ClCompile Include="..\Example\eve_images.c" />
-    <ClCompile Include="..\Library\eve\eve_libmpsse\EVE_libmpsse.c" />
+    <ClCompile Include="..\Library\eve\ports\eve_libmpsse\EVE_libmpsse.c" />
     <ClCompile Include="..\Library\eve\source\EVE_API.c" />
     <ClCompile Include="..\Library\eve\source\EVE_HAL.c" />
     <ClCompile Include="..\main.c" />

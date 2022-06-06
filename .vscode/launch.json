@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch FT8xx-SPI-example",
+            "name": "(Windows) Launch FT8xx-SPI",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/FT8xx-SPI-example.exe",
+            "program": "${workspaceFolder}/.vscode/build/FT8xx-SPI.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
