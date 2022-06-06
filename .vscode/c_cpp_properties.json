@@ -3,21 +3,25 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/release/include/**",
-                "${workspaceFolder}/release/libftd2xx/**"
+                "${workspaceFolder}",
+                "${workspaceFolder}/example",
+                "${workspaceFolder}/Library/eve/include",
+                "${workspaceFolder}/release/include",
+                "${workspaceFolder}/release/libftd2xx"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "FTDIMPSSE_STATIC"
+                "FTDIMPSSE_STATIC",
+                "USE_MPSSE=1"
             ],
             "windowsSdkVersion": "10.0.18362.0",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "cl.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

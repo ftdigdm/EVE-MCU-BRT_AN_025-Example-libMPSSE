@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch FT8xx-SPI-dynamic",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/FT8xx-SPI-dynamic.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {"name": "Path", "value":  "${env:Path};${workspaceFolder}\\release\\build"}
+            ],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "(Windows) Launch FT8xx-SPI-static",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/FT8xx-SPI-static.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {"name": "Path", "value":  "${env:Path};${workspaceFolder}\\release\\build"}
+            ],
+            "console": "externalTerminal"
+        }
+
+    ]
+}
