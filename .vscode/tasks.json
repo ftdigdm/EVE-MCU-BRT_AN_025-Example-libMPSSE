@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: cl.exe build active file",
+            "label": "C/C++: Build EVE Example",
             "command": "cl.exe",
             "args": [
                 "/Zi",
@@ -11,7 +11,7 @@
                 "/nologo",
                 "/DUSE_MPSSE=1",
                 "/Fe:",
-                "\"${workspaceFolder}\\FT8xx-SPI-static.exe\"",
+                "\"${workspaceFolder}\\FT8xx-SPI-example.exe\"",
                 "/I",
                 "\"${workspaceFolder}\"",
                 "/I",
