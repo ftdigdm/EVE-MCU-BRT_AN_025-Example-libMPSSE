@@ -30,7 +30,8 @@ The configuration, build and launch files are found in the ".vscode" folder.
 
 Open Visual Studio Code using the command "code ." from a "Developer Command Prompt for VS <version>" to ensure that the build environment is setup correctly.
 
-When the example application is launched in Code it will add the location of the libmpsse.dll file to the PATH environment variable of the running process.
+When the example application is launched in Code it will add the location of the libmpsse.dll file to the PATH e
+nvironment variable of the running process.
 
 Program executables and object files are placed into the ".vscode\build" folder. 
 

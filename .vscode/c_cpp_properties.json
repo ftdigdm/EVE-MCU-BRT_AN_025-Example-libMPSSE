@@ -14,7 +14,7 @@
                 "UNICODE",
                 "_UNICODE",
                 "FTDIMPSSE_STATIC",
-                "USE_MPSSE=1"
+                "USE_MPSSE=0"
             ],
             "windowsSdkVersion": "10.0.18362.0",
             "compilerPath": "cl.exe",

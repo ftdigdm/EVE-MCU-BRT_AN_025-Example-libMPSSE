@@ -9,7 +9,7 @@
                 "/Zi",
                 "/EHsc",
                 "/nologo",
-                "/DUSE_MPSSE=1",
+                "/DUSE_MPSSE=0",
                 "/Fe:",
                 "\"${workspaceFolder}\\.vscode\\build\\FT8xx-SPI.exe\"",
                 "/Fo.\\.vscode\\",

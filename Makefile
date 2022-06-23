@@ -10,7 +10,7 @@ else
 endif
 
 # Use MPSSE. This tells BRT_AN_025 to override
-CFLAGS = -DUSE_MPSSE=1
+CFLAGS = -DUSE_MPSSE=0
 CFLAGS += -Wall -Wextra 
 # Add in include directories for BRT_AN_025
 CFLAGS += -I/usr/local/include -IExample -ILibrary/eve/include
